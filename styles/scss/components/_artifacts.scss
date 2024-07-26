@@ -1,4 +1,4 @@
-﻿.new-artifacts {
+﻿.artifacts {
     display: flex;
     flex-direction: column;
     margin: 0 130px;
@@ -6,6 +6,7 @@
 
     &__title {
         color: white;
+        margin: 40px 0;
     }
   
     &__content {
@@ -15,22 +16,38 @@
   
     &__images {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(4, 1fr);
       grid-gap: 20px;
+      padding: 20px;
+      background-color: $background_shade;
+      margin-right: 20px;
     }
-  
-    &__image {
+
+    &__image{
       max-width: 100%;
-      height: auto;
+
+      &.span-2{
+        grid-column: span 2;
+      }
     }
+
   
     &__info {
       width: 40%;
       background-color: $primary-green;
+      padding: 20px;
+      position: relative;
+    }
+
+    &__info-text{
+      color: $green-text;
+      margin-top: 10px;
     }
 
     &__info-link{
+      position: absolute;
       color: $background-shade;
+      bottom: 20px;
     }
   
 
