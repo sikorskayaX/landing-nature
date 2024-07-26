@@ -1,7 +1,8 @@
-﻿@import 'header';
-@import 'fonts';
-@import 'navigation';
-@import 'variables';
-@import 'main';
-@import 'gallery';
-@import 'artifact';
+﻿@import './abstracts/variables';
+@import './base/fonts';
+@import './base/typography';
+@import './layout/header';
+@import './layout/navigation';
+@import './layout/main';
+@import './components/gallery';
+@import './components/artifact';
