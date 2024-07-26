@@ -1,0 +1,41 @@
+﻿.help{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 130px;
+    
+    background-blend-mode: multiply;
+    background-image: url('../images/1_1.png');
+    background-color: $shade;
+    height: 463px;
+
+    > * {
+        padding: 10px 0;
+    }
+
+    &__text{
+        width: 825px;
+        color: white;
+    }
+
+    &__form{
+        display: flex;
+        flex-direction: column;
+
+        > * {
+            margin: 10px 0;
+        }
+    }
+
+    &__input{
+        width: 350px;
+        height: 45px;
+        padding: 10px;
+    }
+
+    &__button{
+        width: 145px;
+        height: 45px;
+        background-color: $primary-green;
+        border: none;
+    }
+}

@@ -13,6 +13,7 @@ h2 {
   font-weight: 700;
   line-height: 48px;
   text-align: left;
+  color: white;
 }
 
 h3 {
@@ -22,7 +23,7 @@ h3 {
   line-height: 36px;
 }
 
-p {
+p, input {
   font-family: Open Sans;
   font-size: 16px;
   font-weight: 400;
@@ -35,7 +36,6 @@ p {
   font-size: 16px;
   font-weight: 700;
   line-height: 21.79px;
-  text-align: left;
 }
 
 a {
@@ -159,7 +159,6 @@ a {
   padding: 80px 0;
 }
 .artifacts__title {
-  color: white;
   margin: 40px 0;
 }
 .artifacts__content {
@@ -194,4 +193,39 @@ a {
   position: absolute;
   color: rgb(11, 25, 25);
   bottom: 20px;
+}
+
+.help {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 130px;
+  background-blend-mode: multiply;
+  background-image: url("../images/1_1.png");
+  background-color: rgba(29, 47, 48, 0.719);
+  height: 463px;
+}
+.help > * {
+  padding: 10px 0;
+}
+.help__text {
+  width: 825px;
+  color: white;
+}
+.help__form {
+  display: flex;
+  flex-direction: column;
+}
+.help__form > * {
+  margin: 10px 0;
+}
+.help__input {
+  width: 350px;
+  height: 45px;
+  padding: 10px;
+}
+.help__button {
+  width: 145px;
+  height: 45px;
+  background-color: rgb(186, 226, 73);
+  border: none;
 }/*# sourceMappingURL=style.css.map */
